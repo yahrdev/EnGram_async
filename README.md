@@ -26,6 +26,7 @@ When the `gettests` endpoint is called, the app retrieves a set number of tests 
 
 ```bash
 git clone https://github.com/yourusername/EnGram_async.git
+```
 
 ### 2. Navigate into the project directory
 
