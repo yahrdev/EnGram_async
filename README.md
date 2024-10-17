@@ -31,7 +31,7 @@ git clone https://github.com/yourusername/EnGram_async.git
 ### 2. Navigate into the project directory
 
 ```bash
-cd EnGram_sync
+cd EnGram_async
 ```
 
 ### 3. Install the dependencies
