@@ -7,7 +7,7 @@ The app was built using **Quart** with asynchronous programming and has two endp
 - The first endpoint generates one test each time it's called.
 - The second endpoint updates the date and time when the test was displayed on the frontend.
 
-When the `gettests` endpoint is called, the app retrieves a set number of tests from the database and stores them in the cache. Users receive one test from the cache per call, reducing the need for frequent database queries. The `updatestatus` endpoint ensures test variation by sorting the tests by the `datetime_shown` field, ensuring users always receive the oldest available test.
+When the `gettests` endpoint is called, the app retrieves a set number of tests from the database and stores them in the cache. Users receive one test from the cache per call, reducing the need for frequent database queries. The `updatestatus` endpoint ensures test variation by sorting the tests by the datetime_shown field, so users always receive the oldest available test.
 
 ## Technologies Used
 
