@@ -55,7 +55,7 @@ class BaseModel(Base):
 
 
 
-class Questions(Base):
+class Questions(BaseModel):
 
     """the main table with questions list. 
     datetime_shown is for reflecting the time when a question was shown to a user last time"""
